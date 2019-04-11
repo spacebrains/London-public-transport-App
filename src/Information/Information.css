@@ -1,0 +1,76 @@
+.Information{
+    margin:30px 0;
+}
+
+.Information__sort-info{
+    display:flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.Information__h2{
+    margin:15px 0;
+}
+
+.Information__transport-icon{
+    height:300px;
+    width:300px;
+    //background-color: red;
+    background:url("../img/img-mode/undefined.jpg") no-repeat center;
+    background-size:100%;
+}
+
+.Information__transport-icon_mode_bus{
+    background:url("../img/img-mode/bus.png") no-repeat center;
+    background-size:100%;
+}
+
+.Information__transport-icon_mode_tube{
+    background:url("../img/img-mode/tube.png") no-repeat center;
+    background-size:100%;
+}
+
+.Information__transport-icon_mode_cycle{
+    background:url("../img/img-mode/cycle.png") no-repeat center;
+    background-size:100%;
+}
+
+.Information__transport-icon_mode_coach{
+    background:url("../img/img-mode/coach.png") no-repeat center;
+    background-size:100%;
+}
+
+.Information__transport-icon_mode_cable-car{
+    background:url("../img/img-mode/cable-car.png") no-repeat center;
+    background-size:100%;
+}
+
+.Information__roat{
+    margin:20px 0 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+}
+
+
+
+.Information_li {
+    list-style-type: none;
+    font-family: 'Ubuntular', sans-serif;
+    font-size: 18px;
+    margin:5px 0;
+}
+
+.Information_li:before {
+    content: "";
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: #b20009;
+    margin:0 5px 0 0;
+}
+
+
+
+
+
